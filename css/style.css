@@ -41,12 +41,16 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
-    background-color: rgba(0, 0, 255, 0.8);
+    /* background: rgb(9,9,121); */
+/* background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 100%); */
+    background-color: #141414;
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
 
 .nav div.logo {
     top: 10%;
-    left: 2%;
+    left: 10%;
     position: absolute;
 }
 
@@ -64,6 +68,7 @@ body {
 .nav div.main_list {
     width: 600px;
     height: 65px;
+    padding-right: 7.8rem;
     float: right;
 }
 
@@ -216,3 +221,35 @@ body {
         display: block;
     }
 }
+
+/* First Section */
+.MainFirstSection{
+   display: flex;
+   justify-content: space-between;
+   /* padding: 100px 100px; */
+   padding: 160px 160px 0 150px;
+   /* heig7t: 100vh; */
+}
+/* .MainInner{
+    width: 50%;
+} */
+ .MainInnerFont{
+    font-size: 45px;
+    width: 90%;
+    font-weight: 500;
+ }
+ .MainInnerFontOne{
+    font-size: 20px;
+    width: 50%;
+    padding-top: 1rem;
+ }
+ .MainInnerImg{
+    padding-top: 5rem;
+    /* cursor: pointer;  */
+ }
+ .ImgeMain{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+ }
