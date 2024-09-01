@@ -253,3 +253,32 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     display: block;
     cursor: pointer;
  }
+ .SecondSection{
+    padding: 160px 160px 0 150px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .SecondSectionInner{
+    font-size: 45px;
+ }
+ .Whoweare{
+    padding-bottom: 10px;
+    font-size: 50px;
+    /* width: 90%; */
+    font-weight: 500;
+    text-transform: capitalize;
+ }
+ .SecondSectionInnerSmall{
+    font-size: 18px;
+    width: 65%;
+    line-height: 30px;
+    text-align: justify;
+    word-break: break-all;
+ }
+ .creaInner{
+    padding-top: 10px;
+ }
+ .SecondSectionInnerFirst{
+    font-size: 20px;
+
+ }
