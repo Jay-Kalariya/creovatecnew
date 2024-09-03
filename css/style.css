@@ -230,13 +230,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 .MainFirstSection{
    display: flex;
    justify-content: space-between;
-   /* padding: 100px 100px; */
    padding: 160px 160px 0 150px;
-   /* heig7t: 100vh; */
 }
-/* .MainInner{
-    width: 50%;
-} */
  .MainInnerFont{
     font-size: 45px;
     width: 90%;
@@ -249,7 +244,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
  }
  .MainInnerImg{
     padding-top: 5rem;
-    /* cursor: pointer;  */
  }
  .ImgeMain{
     max-width: 100%;
@@ -311,14 +305,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 }
 
 
- /*  */
+ /* Second Section */
  .SecondSection{
-    padding: 160px 160px 0 150px;
+    padding: 160px 160px 50px 150px;
     display: flex;
     justify-content: space-between;
  }
  .SecondSectionInner{
-    font-size: 45px;
+    width: 100%;
  }
  .Whoweare{
     padding-bottom: 10px;
@@ -328,8 +322,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     text-transform: capitalize;
  }
  .SecondSectionInnerSmall{
-    font-size: 18px;
-    width: 65%;
+    font-size: 22px;
+    width: 80%;
     line-height: 30px;
     text-align: justify;
     word-break: break-all;
@@ -338,6 +332,53 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     padding-top: 10px;
  }
  .SecondSectionInnerFirst{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    
+ }
+ .SecondTextFirst{
+    font-size: 100px;
+    width: 100%;
+ }
+ .SecondTextFirstOne{
     font-size: 20px;
-
+    text-transform: uppercase;
+    width: 50%;
+ }
+ @media (max-width: 1199px){
+    .SecondSection {
+        padding: 160px 120px 50px 120px;
+    }
+ }
+ @media (max-width: 1024px){
+    .SecondSection {
+        padding: 160px 90px 50px 90px;
+    }
+    
+ }
+ @media (max-width: 768px){
+    .SecondSection {
+        padding: 160px 60px 50px 60px;
+        flex-direction: column;
+    }
+    .SecondSectionInnerSmall{
+        font-size: 22px;
+        width: 100%;
+        line-height: normal;
+        text-align: left;
+        word-break: normal;
+     }
+ }
+ @media (max-width: 575px){
+    .SecondSection {
+        padding: 100px 20px 50px 20px;
+    }
+    .SecondSectionInnerSmall{
+        font-size: 18px;
+        width: 100%;
+     }
+     .Whoweare{
+        font-size: 38px;
+     }
  }
